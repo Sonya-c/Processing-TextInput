@@ -46,7 +46,7 @@ public class textField {
     this.focusColor = focusColor;
   }
 
-  public void mousePressed() {
+  public void active() {
     if (mouseX > x && mouseY > y && mouseX < x + w && mouseY < y + h) {
       this.active = true;
     } else {
